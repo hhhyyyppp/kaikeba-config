@@ -1,0 +1,38 @@
+# 配置 dev 环境
+server:
+ port: 7070
+spring:
+ profiles: dev
+ # 指定当前微服务对外暴露的名称
+ application:
+ name: kaikeba-consumer-depart
+eureka:
+ # 指定 eureka 服务中心
+ client:
+ service-url:
+ defaultZone: http://eureka8001.com:8001/eureka
+# 开启 Feign 对 Hystrix 的支持
+feign:
+ hystrix:
+ enabled: true
+---
+# 配置 test 环境
+server:
+ port: 9090
+spring:
+ profiles: test
+ # 指定当前微服务对外暴露的名称
+ application:
+ name: kaikeba-consumer-depart
+eureka:
+ # 指定 eureka 服务中心
+ client:
+ service-url:
+ defaultZone: http://eureka8002.com:8002/eureka
+# 开启 Feign 对 Hystrix 的支持
+feign:
+ hystrix:
+讲师：Rey
+107
+ 微服务框架 SpringCloud
+ enabled: true
