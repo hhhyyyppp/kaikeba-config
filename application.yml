@@ -1,15 +1,15 @@
 spring:
- profiles:
- active: dev
+  profiles:
+    active: dev
 ---
 # 开发环境
 spring:
- application:
- name: kaikeba-config-dev
- profiles: dev
+  application:
+    name: kaikeba-config-dev
+  profiles: dev
 ---
 # 测试环境
 spring:
- application:
- name: kaikeba-config-test
- profiles: test
+  application:
+    name: kaikeba-config-test
+  profiles: test
