@@ -23,9 +23,6 @@ jdbc:mysql:///test02?useUnicode=true&amp;characterEncoding=UTF
 -8
  username: root
  password: 111111
-讲师：Rey
-105
- 微服务框架 SpringCloud
 eureka:
  # 指定 eureka 服务中心
  client:

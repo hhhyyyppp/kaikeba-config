@@ -22,9 +22,6 @@ spring:
  application:
  name: kaikeba-eurekaServer-config
 server:
-讲师：Rey
-104
- 微服务框架 SpringCloud
  port: 8002
 eureka:
  instance:

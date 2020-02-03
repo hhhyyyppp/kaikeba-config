@@ -32,7 +32,4 @@ eureka:
 # 开启 Feign 对 Hystrix 的支持
 feign:
  hystrix:
-讲师：Rey
-107
- 微服务框架 SpringCloud
  enabled: true
